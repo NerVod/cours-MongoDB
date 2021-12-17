@@ -63,7 +63,7 @@ db.film.insert({
 })
 
 // Insérer un film avec des données plus complexes :
-db.film.insertOne({
+db.films.insertOne({
 title :"La vache et le prisonnier",
 length :119,
 created : todayDate,
