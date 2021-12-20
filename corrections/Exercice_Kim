@@ -1,0 +1,14 @@
+// Initialiser une bdd avec des personnes
+
+nom, prenom, taille, age, sport favori
+
+Je vais une bdd ifocop avec une collection devjs
+
+use ifocop
+db.devjs.insertOne({
+    lastname : "Morvan",
+    firstname : "Kim",
+    height : 1.81,
+    birthdate : 1981-07-10,
+    favorite_sport : "Basket"
+})
